@@ -37,8 +37,9 @@ SELECT m.idmusica AS ID, m.nome AS Musica, a.nome AS Artista, e.nome AS Estilo
 FROM musica m
 LEFT JOIN artista a ON m.artist = a.idartista
 LEFT JOIN estmusical e ON m.estmusical = e.idEstmusical;
+
 INSERT INTO cliente (nome, email, telefone, senha) VALUES
-	('adm','adm@spotify.com','11110000','adm'),
+    ('adm','adm@spotify.com','11110000','adm'),
     ('Maria Silva', 'maria@gmail.com', '55556666', 'senha123'),
     ('João Santos', 'joao@yahoo.com', '987654321', 'senha456'),
     ('Ana Oliveira', 'ana@hotmail.com', '123456789', 'senha789'),
@@ -79,11 +80,11 @@ INSERT INTO artista (nome, cpf, telefone) VALUES
     ('Katy Perry', '22222222222', '9876543210'),
     ('Martin Garrix', '33333333333', '5555555555'),
     ('David Guetta', '44444444444', '9999999999'),
-	('Beyoncé', '12121212121', '1112223333'),
+    ('Beyoncé', '12121212121', '1112223333'),
     ('Ed Sheeran', '13131313131', '4445556666'),
     ('Rihanna', '14141414141', '7778889999'),
     ('Alok', '15151515151', '1234567890'),
-	('Adele', '16161616161', '1112223333'),
+    ('Adele', '16161616161', '1112223333'),
     ('Drake', '17171717171', '4445556666'),
     ('Ariana Grande', '18181818181', '7778889999'),
     ('Shawn Mendes', '19191919191', '1234567890'),
@@ -103,12 +104,12 @@ INSERT INTO artista (nome, cpf, telefone) VALUES
     INSERT INTO estmusical (nome) VALUES
     ('Pop'),
     ('EDM'),
-	('Funk'),
+    ('Funk'),
     ('Jazz'),
     ('Hip Hop'),
     ('Eletrônica'),
     ('Indie'),
-	('Rock'),
+    ('Rock'),
     ('Samba'),
     ('Rap'),
     ('Country'),
@@ -120,7 +121,7 @@ VALUES
     ('Firework', 2, 1),          
     ('Animals', 3, 2),           
     ('Titanium', 4, 2),
-	('Halo', 5, 1),           
+    ('Halo', 5, 1),           
     ('Shape of You', 6, 1),    
     ('Diamonds', 7, 1),        
     ('Ocean Drive', 8, 4),     
@@ -128,4 +129,3 @@ VALUES
     ('Hotline Bling', 10, 3),      
     ('7 Rings', 11, 1),
     ('Irreplaceable', 6, 1); 
-
