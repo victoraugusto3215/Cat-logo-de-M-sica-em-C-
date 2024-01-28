@@ -27,5 +27,12 @@ Se você gostaria de contribuir para o desenvolvimento deste projeto, sinta-se �
 
 - C#
 - MYSQL
+  
+### Instruções de Instalação
+1 - Faça o download do projeto.
+2 - Execute o script do MySQL no MySQL Workbench.
+3 - Abra o projeto no Visual Studio.
+4 - Execute o programa.
+5 - Crie um usuário como Cliente ou faça login como Administrador (ADM). 
 
  ⚠️ Este projeto está em atualização!
