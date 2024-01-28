@@ -29,10 +29,12 @@ Se você gostaria de contribuir para o desenvolvimento deste projeto, sinta-se �
 - MYSQL
 
 ## Instruções de Instalação
-1. Faça o download do projeto.
-2. Execute o script do MySQL no MySQL Workbench.
-3. Abra o projeto no Visual Studio.
-4. Execute o programa.
-5. Crie um usuário como Cliente ou faça login como Administrador (ADM). 
+1. Instale e configure o  [Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/).
+2. Instale e configure o [Mysql Workbench](https://www.mysql.com/downloads/).
+3. Instale o servidor [WampServer](https://www.wampserver.com/en/) ou o [XAMPP](https://www.apachefriends.org/pt_br/download.html).
+4. Clone este [repositório](https://github.com/victoraugusto3215/Catalogo_de_Musica_CSharp) ou faça download deste [repositório](https://github.com/victoraugusto3215/Catalogo_de_Musica_CSharp).
+5. Execute o Script do MySQL no Mysql Workbench.
+6. Execute esse projeto no Visual Studio,apertando 'Start'.
+7. Crie um usuário como Cliente ou faça login como Administrador (ADM). 
 
  ⚠️ Este projeto está em atualização!
