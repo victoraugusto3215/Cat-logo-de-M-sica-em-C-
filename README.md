@@ -37,4 +37,3 @@ Se você gostaria de contribuir para o desenvolvimento deste projeto, sinta-se �
 6. Execute esse projeto no Visual Studio,apertando 'Start'.
 7. Crie um usuário como Cliente ou faça login como Administrador (ADM). 
 
- ⚠️ Este projeto está em atualização!
